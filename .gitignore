@@ -1,0 +1,5 @@
+venv/
+.venv/
+.idea/
+IMDB Movies 2000 - 2020.csv
+posters_cache.json
