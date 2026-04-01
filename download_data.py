@@ -2,7 +2,7 @@ from pathlib import Path
 import shutil 
 import kagglehub
 
-dataset_dir = Path(kagglehub.dataset_download('imdb/imdb-movies-2000-2020'))
+dataset_dir = Path(kagglehub.dataset_download('chenyanglim/imdb-v2'))
 project_dir = Path(__file__).resolve().parent
 csv_files = list[Path](dataset_dir.rglob('*.csv'))
 
