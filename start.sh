@@ -10,7 +10,7 @@ if [ ! -d venv ]; then
 fi
 source venv/bin/activate
 
-if [ ! -f $CSV]; then
+if [ ! -f "$CSV" ]; then
     python download_data.py
 fi
 
